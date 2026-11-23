@@ -1,0 +1,75 @@
+DEWI. PORTFOLIO - UPDATE PROJECTS + EDUCATION
+=================================================
+Paket khusus pembaruan dari dewi-portfolio-latest.zip
+Tanggal: 22 November 2026
+
+APA YANG BERUBAH
+- Menu: Home, About Me, Education, Projects, Experience (nonaktif),
+  Skills & Tools (nonaktif), Certifications (nonaktif), Contact (nonaktif).
+- Nomor halaman: About 01, Education 02, Projects 03.
+- Experience lama yang berisi Proyek 01/02 dipindahkan ke projects.html.
+- Kapsul label pada About, Education, Projects tampil konsisten.
+- Education mendapat bagian baru 'Internship Highlights', RINGKAS saja:
+  Polres Subang (Public Relations Intern, Jul-Sep 2025) dan
+  PT Subang Autocomp Indonesia (HRGA Intern, Jul-Okt 2019).
+- Tidak ada halaman Experience magang yang dibuat pada update ini.
+
+PENTING: CARA PASANG (WINDOWS FILE EXPLORER)
+1. Backup dahulu seluruh folder:
+   C:\xampp\htdocs\dewi-portfolio-multipage
+   ke folder lain dengan Copy + Paste (JANGAN Cut).
+2. Di folder website sekarang, rename file lama:
+   experience.html  menjadi  experience-projects-old.html
+   (jangan dihapus; ini backup halaman proyek lama).
+3. Ekstrak ZIP update ini ke folder sementara, misalnya Downloads.
+4. Buka hasil ekstrak, SALIN seluruh item di dalamnya:
+   about.html, education.html, projects.html, components, css, js
+   ke C:\xampp\htdocs\dewi-portfolio-multipage\
+5. Jika Windows bertanya, pilih GABUNGKAN folder komponen/css/js,
+   dan REPLACE file yang mempunyai nama sama.
+   Jangan mengganti folder css/js/components secara keseluruhan.
+6. JANGAN menghapus folder assets berisi foto/screenshot.
+   File css/experience.css dan js/experience.js lama boleh dibiarkan
+   sebagai cadangan, karena halaman baru memakai projects.css/projects.js.
+7. Bila server Python pada port 8001 masih hidup, buka:
+   http://127.0.0.1:8001/projects.html
+   http://127.0.0.1:8001/education.html
+   Gunakan Ctrl+Shift+R supaya cache browser diperbarui.
+
+HARUSNYA TERLIHAT
+- 01 | INTRODUCTION pada About
+- 02 | PERJALANAN AKADEMIK pada Education (ID)
+- 02 | ACADEMIC JOURNEY pada Education (EN)
+- 03 | PROJECTS pada Projects, memakai kapsul pink
+- Proyek ProcureSync dan Proyek 02 tetap ada, termasuk galeri
+- Education di bawah HIMA/PKKMB ada 2 kartu magang singkat
+- Menu Experience saat ini sengaja nonaktif sampai halaman baru dibuat
+
+DAFTAR FILE DALAM UPDATE
+about.html
+education.html
+projects.html
+components/navbar.html
+css/projects.css
+css/education.css
+css/multipage.css
+css/comfort-theme.css
+js/projects.js
+js/education.js
+
+HALAMAN YANG SENGAJA TIDAK DIUBAH
+index.html (Home)
+js/common.js
+components/footer.html
+components/project02.html
+css/project02.css
+js/project02.js
+Seluruh folder assets (foto, screenshot, dokumen)
+
+CATATAN PENGUJIAN
+- Sintaks JavaScript telah diperiksa.
+- Pengujian simulasi Chrome desktop 1380px dan mobile 390px lolos,
+  termasuk label, navbar, bilingual, komponen Project02, dan
+  6 tombol role pada galeri ProcureSync.
+- Verifikasi akhir dengan seluruh foto/screenshot asli tetap perlu
+  dilakukan melalui browser lokal milik pengguna.

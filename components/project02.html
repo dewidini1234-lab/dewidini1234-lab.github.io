@@ -1,0 +1,108 @@
+<!-- Project 02: approved thesis experience; content isolated from ProcureSync. -->
+<article class="p02-project" aria-labelledby="p02-title">
+<header class="p02-hero" data-p02-reveal>
+<div class="p02-hero-copy"><p class="p02-overline">PROJECT 02 | UNDERGRADUATE THESIS</p>
+<h2 id="p02-title" data-p02-i18n="projectName">Sistem Rekapitulasi dan Klasterisasi Aktivitas Media Sosial</h2>
+<p class="p02-subtitle" data-p02-i18n="projectSubtitle">Social Media Activity Reporting and Clustering System</p>
+<p class="p02-context" data-p02-i18n="projectContext">Academic Project | Undergraduate Thesis | System Development</p>
+</div><div class="p02-metrics" aria-label="21 Polsek, 6 platform media sosial"><span><strong>21</strong>Polsek</span><span><strong>6</strong>Platforms</span><span><strong>3</strong>Clusters</span></div></header>
+<section class="p02-section" data-p02-reveal aria-labelledby="p02-overview"><div class="p02-section-heading"><span aria-hidden="true">01</span><h3 id="p02-overview" data-p02-i18n="overviewTitle">Project Overview</h3></div>
+<div class="p02-prose"><p  data-p02-i18n="overview1">Sistem Rekapitulasi dan Klasterisasi Aktivitas Media Sosial merupakan proyek skripsi yang saya rancang dan kembangkan untuk mendukung pengelolaan serta analisis aktivitas media sosial pada 21 Polsek di lingkungan Humas Polres Subang.</p><p  data-p02-i18n="overview2">Sistem berbasis web ini mengintegrasikan pengelolaan data, rekapitulasi aktivitas, penyajian statistik, dan analisis menggunakan algoritma K-Means. Data yang terkumpul dapat diolah secara terstruktur untuk menghasilkan informasi dan pengelompokan aktivitas media sosial setiap Polsek.</p></div></section>
+<section class="p02-section" data-p02-reveal aria-labelledby="p02-problem"><div class="p02-section-heading"><span aria-hidden="true">02</span><h3 id="p02-problem" data-p02-i18n="problemTitle">Background &amp; Business Problem</h3></div>
+<div class="p02-prose"><p  data-p02-i18n="problem1">Sebelum sistem dikembangkan, proses rekapitulasi aktivitas media sosial masih dilakukan secara manual. Tautan unggahan dikumpulkan melalui WhatsApp, kemudian data direkap dan dihitung menggunakan Excel sebelum disusun menjadi laporan untuk diteruskan kepada Polda.</p><p  data-p02-i18n="problem2">Proses tersebut menjadi dasar pengembangan sistem terintegrasi yang menghubungkan pengumpulan data, rekapitulasi, dan analisis dalam satu platform. Dengan pendekatan ini, pengelolaan informasi diharapkan menjadi lebih terstruktur dan mendukung proses pemantauan aktivitas media sosial.</p></div></section>
+<section class="p02-section" data-p02-reveal aria-labelledby="p02-feature-section"><div class="p02-section-heading"><span aria-hidden="true">03</span><h3 id="p02-feature-section" data-p02-i18n="featuresTitle">Fitur Utama Sistem.</h3></div>
+<p class="p02-lead" data-p02-i18n="featuresIntro">Sistem ini mengintegrasikan rekapitulasi aktivitas media sosial, pengolahan data, analisis K-Means, ranking, laporan, serta komunikasi internal untuk mendukung pemantauan aktivitas 21 Polsek di lingkungan Humas Polres Subang.</p>
+<div class="p02-feature-grid">
+<div class="p02-feature" data-p02-reveal><div class="p02-feature-top"><span class="p02-feature-count">01</span><span class="p02-feature-symbol" aria-hidden="true">↗</span></div>
+<h4  data-p02-i18n="feature1Title">Pengelolaan Tautan &amp; Rekapitulasi Aktivitas</h4><p  data-p02-i18n="feature1Desc">Mencatat dan merekap jumlah tautan unggahan dari enam platform media sosial berdasarkan Polsek dan periode pelaporan. Sistem menghitung jumlah URL sebagai data aktivitas tanpa mengambil atau menganalisis isi unggahan.</p></div>
+<div class="p02-feature" data-p02-reveal><div class="p02-feature-top"><span class="p02-feature-count">02</span><span class="p02-feature-symbol" aria-hidden="true">▥</span></div>
+<h4  data-p02-i18n="feature2Title">Dashboard &amp; Statistik Aktivitas</h4><p  data-p02-i18n="feature2Desc">Menyajikan ringkasan aktivitas, jumlah publikasi, dan statistik data sesuai hak akses pengguna. Admin Polres dapat memantau data lintas Polsek, sedangkan Admin Polsek hanya melihat informasi milik Polseknya.</p></div>
+<div class="p02-feature" data-p02-reveal><div class="p02-feature-top"><span class="p02-feature-count">03</span><span class="p02-feature-symbol" aria-hidden="true">◈</span></div>
+<h4  data-p02-i18n="feature3Title">Preprocessing &amp; Normalisasi Data</h4><p  data-p02-i18n="feature3Desc">Membentuk dataset bulanan dari rekapitulasi yang telah disetujui, kemudian menerapkan normalisasi Min-Max pada enam variabel platform sebagai persiapan analisis K-Means.</p></div>
+<div class="p02-feature" data-p02-reveal><div class="p02-feature-top"><span class="p02-feature-count">04</span><span class="p02-feature-symbol" aria-hidden="true">✧</span></div>
+<h4  data-p02-i18n="feature4Title">K-Means Clustering</h4><p  data-p02-i18n="feature4Desc">Mengelompokkan aktivitas media sosial 21 Polsek berdasarkan jumlah publikasi yang telah dinormalisasi. Sistem menampilkan tahapan perhitungan, hasil pengelompokan, dan evaluasi menggunakan Davies-Bouldin Index (DBI).</p></div>
+<div class="p02-feature" data-p02-reveal><div class="p02-feature-top"><span class="p02-feature-count">05</span><span class="p02-feature-symbol" aria-hidden="true">★</span></div>
+<h4  data-p02-i18n="feature5Title">Ranking &amp; Laporan Kinerja</h4><p  data-p02-i18n="feature5Desc">Menyajikan hasil pemeringkatan dan laporan berdasarkan analisis K-Means. Admin Polres dapat melihat hasil seluruh Polsek, sementara Admin Polsek hanya dapat melihat posisi, hasil analisis, dan membuat laporan untuk Polseknya sendiri.</p></div>
+<div class="p02-feature" data-p02-reveal><div class="p02-feature-top"><span class="p02-feature-count">06</span><span class="p02-feature-symbol" aria-hidden="true">◎</span></div>
+<h4  data-p02-i18n="feature6Title">Instagram Crawling</h4><p  data-p02-i18n="feature6Desc">Menyediakan modul terpisah untuk mengambil dan menyimpan data postingan akun Instagram utama Polres melalui Instagram Graph API, termasuk informasi interaksi yang tersedia. Data dari modul ini tidak digunakan sebagai input K-Means Polsek.</p></div>
+<div class="p02-feature" data-p02-reveal><div class="p02-feature-top"><span class="p02-feature-count">07</span><span class="p02-feature-symbol" aria-hidden="true">✉</span></div>
+<h4  data-p02-i18n="feature7Title">Pesan Internal</h4><p  data-p02-i18n="feature7Desc">Memfasilitasi komunikasi dua arah antara Admin Polres dan Admin Polsek melalui ruang percakapan khusus untuk mendukung koordinasi dan pertukaran informasi.</p></div>
+<div class="p02-feature" data-p02-reveal><div class="p02-feature-top"><span class="p02-feature-count">08</span><span class="p02-feature-symbol" aria-hidden="true">✳</span></div>
+<h4  data-p02-i18n="feature8Title">Pengumuman</h4><p  data-p02-i18n="feature8Desc">Memungkinkan Admin Polres membuat dan menyampaikan pengumuman kepada seluruh pengguna, seluruh Admin Polsek, atau Polsek tertentu. Admin Polsek dapat melihat pengumuman yang ditujukan kepada akun atau satuannya.</p></div>
+<div class="p02-feature" data-p02-reveal><div class="p02-feature-top"><span class="p02-feature-count">09</span><span class="p02-feature-symbol" aria-hidden="true">⚙</span></div>
+<h4  data-p02-i18n="feature9Title">Manajemen Polsek &amp; Akun Pengguna</h4><p  data-p02-i18n="feature9Desc">Admin Polres memiliki kewenangan sebagai administrator utama untuk mengelola data Polsek dan akun Admin Polsek. Fitur ini mencakup penambahan dan pembaruan data Polsek, pengelolaan status akun, serta pengaturan kata sandi baru. Pengelolaan akun disesuaikan dengan penugasan masing-masing Polsek agar pengguna dapat mengakses informasi sesuai kewenangannya.</p></div>
+</div>
+<div class="p02-subrow"><h4  data-p02-i18n="platformsTitle">Platform Media Sosial yang Direkap</h4><p class="p02-platforms">YouTube <span>|</span> Police Tube <span>|</span> X <span>|</span> Instagram <span>|</span> Facebook <span>|</span> TikTok</p></div>
+<div class="p02-subrow"><h4  data-p02-i18n="rolesTitle">Hak Akses Pengguna</h4>
+<div class="p02-role-cards"><div class="p02-role-card"><strong  data-p02-i18n="rolePolresTitle">Admin Polres | Administrator Utama</strong><p  data-p02-i18n="rolePolresDesc">Mengelola data dan akun pengguna, memantau aktivitas lintas Polsek, menjalankan preprocessing dan analisis K-Means, serta mengelola laporan, pesan internal, dan pengumuman.</p></div>
+<div class="p02-role-card"><strong  data-p02-i18n="rolePolsekTitle">Admin Polsek</strong><p  data-p02-i18n="rolePolsekDesc">Memantau dashboard dan rekap aktivitas Polseknya sendiri, melihat posisi ranking serta hasil analisis yang relevan, membuat laporan khusus Polseknya, dan menggunakan fitur pesan serta pengumuman. Data Polsek lain tidak ditampilkan dalam ruang kerjanya.</p></div></div></div>
+<p class="p02-interface-lang" data-p02-i18n="interfaceLanguage">Bahasa Antarmuka Sistem: Bahasa Indonesia</p>
+</section>
+<section class="p02-section" data-p02-reveal aria-labelledby="p02-kmeans-heading"><div class="p02-section-heading"><span aria-hidden="true">04</span><h3 id="p02-kmeans-heading" data-p02-i18n="kmeansTitle">Dari Rekapitulasi Data Menjadi Analisis Kinerja.</h3></div>
+<div class="p02-prose"><p  data-p02-i18n="kmeansIntro1">Salah satu bagian utama dari sistem ini adalah implementasi algoritma K-Means untuk mengelompokkan aktivitas media sosial 21 Polsek berdasarkan jumlah publikasi pada enam platform.</p><p  data-p02-i18n="kmeansIntro2">Proses analisis menggunakan data rekapitulasi jumlah URL yang telah dicatat dalam sistem. Konten dari tautan tersebut tidak dianalisis; data yang digunakan adalah jumlah aktivitas publikasi berdasarkan platform dan Polsek.</p></div>
+<div class="p02-steps">
+<div class="p02-step" data-p02-reveal><span class="p02-step-number">01</span><div>
+<h4  data-p02-i18n="km1Title">Dataset Preparation</h4><p  data-p02-i18n="km1Desc">Sistem membentuk dataset bulanan dari data rekapitulasi yang telah disetujui. Jumlah publikasi pada enam platform digabungkan berdasarkan masing-masing Polsek sehingga menghasilkan matriks data dengan 21 Polsek dan enam variabel.</p></div></div>
+<div class="p02-step" data-p02-reveal><span class="p02-step-number">02</span><div>
+<h4  data-p02-i18n="km2Title">Min-Max Normalization</h4><p  data-p02-i18n="km2Desc">Setiap variabel dinormalisasi menggunakan metode Min-Max agar nilai aktivitas dari berbagai platform berada pada skala 0–1 dan dapat dibandingkan dalam proses pengelompokan.</p></div></div>
+<div class="p02-step" data-p02-reveal><span class="p02-step-number">03</span><div>
+<h4  data-p02-i18n="km3Title">K-Means Clustering</h4><p  data-p02-i18n="km3Desc">Proses klasterisasi menggunakan tiga cluster dengan inisialisasi centroid Farthest-First dan perhitungan Euclidean Distance. Sistem memperbarui centroid serta keanggotaan cluster secara iteratif hingga mencapai kondisi konvergen.</p></div></div>
+<div class="p02-step" data-p02-reveal><span class="p02-step-number">04</span><div>
+<h4  data-p02-i18n="km4Title">Cluster Evaluation</h4><p  data-p02-i18n="km4Desc">Kualitas hasil pengelompokan dievaluasi menggunakan Davies-Bouldin Index (DBI). Hasil analisis ditampilkan dalam tiga kategori aktivitas, yaitu Kinerja Tinggi, Kinerja Sedang, dan Kinerja Rendah.</p></div></div>
+<div class="p02-step" data-p02-reveal><span class="p02-step-number">05</span><div>
+<h4  data-p02-i18n="km5Title">Ranking &amp; Reporting</h4><p  data-p02-i18n="km5Desc">Hasil K-Means digunakan untuk menyajikan ranking aktivitas Polsek dan laporan kinerja. Admin Polres dapat melihat hasil seluruh Polsek, sedangkan Admin Polsek hanya dapat mengakses hasil yang berkaitan dengan Polseknya sendiri.</p></div></div>
+</div>
+<div class="p02-results" data-p02-reveal>
+<h4  data-p02-i18n="kmExampleTitle">Contoh Hasil Analisis | September 2025</h4>
+<div class="p02-cluster-summary">
+<div class="p02-result p02-result-1"><span data-p02-i18n="kmHigh">Kinerja Tinggi</span><strong>2</strong><small>Polsek</small></div>
+<div class="p02-result p02-result-2"><span data-p02-i18n="kmMed">Kinerja Sedang</span><strong>3</strong><small>Polsek</small></div>
+<div class="p02-result p02-result-3"><span data-p02-i18n="kmLow">Kinerja Rendah</span><strong>16</strong><small>Polsek</small></div>
+</div>
+<div class="p02-cluster-bar" role="img" aria-label="2 high, 3 medium, 16 low out of 21 police sectors"><span style="--share:9.5238%;" class="p02-segment p02-segment-high"></span><span style="--share:14.2857%;" class="p02-segment p02-segment-mid"></span><span style="--share:76.1905%;" class="p02-segment p02-segment-low"></span></div>
+<div class="p02-result-metadata"><span><small  data-p02-i18n="kmIterations">Iterasi</small><b>2</b></span><span><small  data-p02-i18n="kmDbi">Davies-Bouldin Index (DBI)</small><b>0,4862</b></span></div>
+<p class="p02-result-desc" data-p02-i18n="kmExampleDesc">Pada salah satu dataset yang ditampilkan dalam sistem, hasil K-Means membagi 21 Polsek menjadi 2 Polsek berkinerja tinggi, 3 Polsek berkinerja sedang, dan 16 Polsek berkinerja rendah. Proses mencapai konvergensi pada iterasi kedua dengan nilai DBI sekitar 0,4862.</p>
+</div>
+<p class="p02-note" data-p02-i18n="kmNote">Catatan: Modul Instagram Crawling merupakan fitur terpisah dan tidak digunakan sebagai sumber data dalam proses K-Means ini.</p>
+</section>
+<section class="p02-section" data-p02-reveal aria-labelledby="p02-contrib"><div class="p02-section-heading"><span aria-hidden="true">05</span><h3 id="p02-contrib" data-p02-i18n="contribTitle">Kontribusi Saya dalam Pengembangan Sistem.</h3></div>
+<p class="p02-lead" data-p02-i18n="contribIntro">Dalam proyek skripsi ini, saya terlibat dalam proses pengembangan sistem, mulai dari memahami kebutuhan pengguna, merancang struktur aplikasi, hingga mengimplementasikan fitur pengelolaan data dan analisis aktivitas media sosial.</p>
+<div class="p02-contribution-grid">
+<div class="p02-contribution" data-p02-reveal><span class="p02-contrib-num">01</span>
+<h4  data-p02-i18n="contrib1Title">System Analysis</h4><p  data-p02-i18n="contrib1Desc">Menganalisis proses rekapitulasi aktivitas media sosial yang sebelumnya dilakukan melalui WhatsApp dan Excel, serta mengidentifikasi kebutuhan sistem untuk mendukung pengelolaan data dan pelaporan yang lebih terstruktur.</p></div>
+<div class="p02-contribution" data-p02-reveal><span class="p02-contrib-num">02</span>
+<h4  data-p02-i18n="contrib2Title">System Design</h4><p  data-p02-i18n="contrib2Desc">Merancang alur kerja sistem, struktur database, antarmuka pengguna, serta pembagian hak akses antara Admin Polres dan Admin Polsek sesuai kebutuhan masing-masing.</p></div>
+<div class="p02-contribution" data-p02-reveal><span class="p02-contrib-num">03</span>
+<h4  data-p02-i18n="contrib3Title">Web Application Development</h4><p  data-p02-i18n="contrib3Desc">Mengembangkan aplikasi berbasis web yang mencakup pengelolaan data Polsek, rekapitulasi aktivitas, dashboard statistik, komunikasi internal, ranking, dan laporan.</p></div>
+<div class="p02-contribution" data-p02-reveal><span class="p02-contrib-num">04</span>
+<h4  data-p02-i18n="contrib4Title">Data Processing &amp; K-Means Implementation</h4><p  data-p02-i18n="contrib4Desc">Mengembangkan proses pembentukan dataset, normalisasi Min-Max, implementasi algoritma K-Means, serta evaluasi hasil klasterisasi menggunakan Davies-Bouldin Index (DBI).</p></div>
+<div class="p02-contribution" data-p02-reveal><span class="p02-contrib-num">05</span>
+<h4  data-p02-i18n="contrib5Title">Instagram API Integration</h4><p  data-p02-i18n="contrib5Desc">Mengembangkan modul Instagram Crawling menggunakan Instagram Graph API untuk mengambil dan mengelola data postingan dari akun Instagram utama Polres Subang sebagai fitur terpisah dari analisis K-Means.</p></div>
+<div class="p02-contribution" data-p02-reveal><span class="p02-contrib-num">06</span>
+<h4  data-p02-i18n="contrib6Title">Data Visualization &amp; Reporting</h4><p  data-p02-i18n="contrib6Desc">Mengembangkan tampilan statistik, hasil pengelompokan, ranking kinerja Polsek, dan laporan untuk menyajikan informasi secara lebih mudah dipahami.</p></div>
+</div></section>
+<section class="p02-section" data-p02-reveal aria-labelledby="p02-stack"><div class="p02-section-heading"><span aria-hidden="true">06</span><h3 id="p02-stack" data-p02-i18n="stackTitle">Technology Stack</h3></div>
+<div class="p02-stack-grid">
+<div class="p02-stack-row"><span>Backend</span><strong>PHP Native 8.2</strong></div>
+<div class="p02-stack-row"><span>Database</span><strong>MySQL</strong></div>
+<div class="p02-stack-row"><span>Database Access</span><strong>PDO</strong></div>
+<div class="p02-stack-row"><span>Frontend</span><strong>HTML | CSS | JavaScript</strong></div>
+<div class="p02-stack-row"><span>UI Framework</span><strong>Bootstrap 5.3</strong></div>
+<div class="p02-stack-row"><span>Visualization</span><strong>Chart.js</strong></div>
+<div class="p02-stack-row"><span>Data Analysis</span><strong>K-Means | Min-Max | DBI</strong></div>
+<div class="p02-stack-row"><span>API Integration</span><strong>Instagram Graph API</strong></div>
+</div><div class="p02-structure"><h4  data-p02-i18n="structureTitle">Application Structure</h4><p>Controllers <span>|</span> Models <span>|</span> Repositories <span>|</span> Services <span>|</span> Middleware <span>|</span> Validators</p></div></section>
+<section class="p02-section p02-section-last" data-p02-reveal aria-labelledby="p02-gallery"><div class="p02-section-heading"><span aria-hidden="true">07</span><h3 id="p02-gallery" data-p02-i18n="galleryTitle">Dokumentasi Sistem</h3></div>
+<p class="p02-lead" data-p02-i18n="galleryIntro">Pilih fitur untuk melihat tampilannya.</p>
+<div class="p02-gallery" id="p02-gallery-container">
+<div class="p02-role-switch" role="group" aria-label="Admin Polres | Admin Polsek">
+<button type="button" class="p02-role-btn is-active" data-p02-role="polres" aria-pressed="true" data-p02-i18n="rolePolresButton">Admin Polres</button>
+<button type="button" class="p02-role-btn" data-p02-role="polsek" aria-pressed="false" data-p02-i18n="rolePolsekButton">Admin Polsek</button></div>
+<div class="p02-category-switch" id="p02-categories" role="group" aria-label="System feature categories"></div>
+<div class="p02-image-picker" id="p02-images" role="group" aria-label="Available system screenshots"></div>
+<figure class="p02-stage"><div class="p02-browser-top"><span class="p02-browser-dots" aria-hidden="true"><i></i><i></i><i></i></span><strong>HUMAS POLRES SUBANG</strong><span class="p02-stage-index" id="p02-index">01</span></div>
+<div class="p02-stage-visual"><img id="p02-preview-image" hidden alt="" decoding="async" loading="lazy"><div class="p02-missing" id="p02-missing" hidden></div></div>
+<figcaption class="p02-stage-bottom"><span id="p02-current-label"></span><button type="button" id="p02-enlarge" class="p02-enlarge" data-p02-i18n="enlarge" disabled>Perbesar Gambar</button></figcaption></figure>
+</div></section>
+<dialog id="p02-lightbox" class="p02-lightbox" aria-label="System Documentation"><button class="p02-modal-close" id="p02-modal-close" type="button" data-p02-i18n="close">Tutup Gambar</button><img id="p02-modal-image" alt=""></dialog>
+</article>

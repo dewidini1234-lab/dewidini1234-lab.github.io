@@ -1,0 +1,57 @@
+DEWI PORTFOLIO - EXPERIENCE / INTERNSHIP UPDATE
+================================================
+
+Isi update:
+- experience.html                : halaman khusus pengalaman magang
+- components/navbar.html        : mengaktifkan menu Experience, selain itu tetap sama
+- css/internship.css            : desain khusus Experience
+- js/internship.js              : teks ID/EN + galeri empat foto
+- assets/images/internship-autocomp-building.png
+- assets/images/internship-polres-01.jpg
+- assets/images/internship-polres-02.jpg
+- assets/images/internship-polres-03.jpg
+
+TIDAK mengubah:
+- index.html, about.html, education.html, projects.html
+- CSS dan JS milik halaman yang sudah jadi
+- semua foto dan screenshot proyek yang sudah ada
+- isi ProcureSync, sistem skripsi, dan Pendidikan
+
+CARA PASANG (WINDOWS)
+1. Tutup pengeditan yang belum disimpan di VS Code. Simpan dulu (Ctrl+S).
+2. Buka folder C:\xampp\htdocs\dewi-portfolio-multipage\
+3. Cadangkan navbar lama terlebih dahulu:
+   Copy-Item .\components\navbar.html .\components\navbar-before-internship.html
+4. Jika di folder utama sudah ada experience.html (versi lama), cadangkan:
+   Copy-Item .\experience.html .\experience-before-internship.html
+   (Lompati langkah ini jika file experience.html belum ada.)
+5. Extract ZIP ini ke folder terpisah di Downloads.
+6. Copy semua FILE dan FOLDER hasil ekstrak ke:
+   C:\xampp\htdocs\dewi-portfolio-multipage\
+7. Pilih Merge/Gabungkan jika Windows bertanya soal folder.
+   Pilih Replace hanya untuk components\navbar.html dan experience.html,
+   jika nama file itu sudah ada.
+   Jangan menghapus/mengganti seluruh folder assets, css, js, components.
+8. Pastikan server lokal tetap berjalan (python -m http.server 8001).
+9. Buka http://127.0.0.1:8001/experience.html
+10. Tekan Ctrl+Shift+R untuk memuat CSS dan JS terbaru.
+
+YANG PERLU DICEK
+- Navbar Pengalaman/Experience aktif, Projects tetap dapat dibuka.
+- Urutan magang: PT Subang Autocomp Indonesia (2019), lalu Polres Subang (2025).
+- Ada 5 tugas HRGA dan 4 tugas Humas (semua uraian lengkap).
+- Klik foto PT atau 3 foto Polres untuk memperbesar.
+- Foto landscape tidak terpotong, galeri Polres geser di HP.
+- Klik ID/EN pada navbar; semua tulisan berganti.
+- Foto baru ada di folder assets/images.
+
+CATATAN PENTING SEBELUM WEBSITE PUBLIK
+- Foto perusahaan berasal dari hasil pencarian Google. Pastikan memiliki
+  hak/izin/lisensi untuk dipajang di portfolio publik, atau ganti dengan
+  foto berlisensi jelas. Foto yang ditemukan di Google tidak otomatis bebas pakai.
+- Untuk foto berisi rekan kerja/staf, pastikan penggunaannya di portfolio publik
+  sudah mendapat persetujuan sesuai kebutuhan.
+- Seluruh file foto tidak menyimpan metadata EXIF lokasi GPS.
+- Foto gedung asli kecil (356 x 187), jadi tetap bisa terlihat kurang tajam.
+
+Arsitektur: HTML/CSS/JavaScript vanilla, sesuai kode website terbaru.

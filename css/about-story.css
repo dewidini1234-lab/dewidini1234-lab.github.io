@@ -1,0 +1,65 @@
+/* About Me: personal story refactor. Scoped to .about-story-page only. */
+.about-story-page { color: var(--charcoal); }
+.about-story-page .about-container { padding-bottom: 90px; }
+.about-story-page .about-story-heading { max-width: 920px; margin-bottom: 44px; }
+.about-story-page .about-title { max-width: 880px; }
+.about-story-page .about-intro { max-width: 800px; font-size: clamp(.94rem, 1.1vw, 1.02rem); line-height: 1.9; }
+.about-story-page .about-story-eyebrow { display: inline-flex; align-items: center; gap: 9px; background: #F8E8EF; border: 1px solid #EDC7D6; border-radius: 999px; color: #99506F; }
+.about-story-page .about-story-eyebrow::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: #CB7299; box-shadow: 0 0 0 4px rgba(203,114,153,.12); }
+.about-story-page .about-story-main-grid { grid-template-columns: .84fr 1.16fr; gap: 32px; align-items: start; }
+.about-story-page .about-story-visual { min-width: 0; }
+.about-story-page .about-photo-card { border-color: #FFF8FA; box-shadow: 0 20px 42px rgba(108, 70, 88, .13); }
+.about-story-page .about-photo-overlay { background: linear-gradient(to top, rgba(35,25,32,.90), rgba(35,25,32,.40) 58%, transparent); }
+.about-story-page .about-photo-overlay h2 { color: #FFFFFF !important; text-shadow: 0 2px 12px rgba(0, 0, 0, .8); }
+.about-story-page .about-photo-overlay p { color: #FFF1F7 !important; text-shadow: 0 2px 8px rgba(0,0,0,.7); }
+.about-story-page .about-photo-overlay span { color: #FFE8F0 !important; text-shadow: 0 2px 8px rgba(0,0,0,.6); }
+.about-story-page .about-snapshot-card { border: 1px solid #E8C7D5; border-radius: 24px; padding: 26px; background: #F8F0F3; box-shadow: 0 10px 27px rgba(108,70,88,.065); }
+.about-story-page .about-snapshot-card .about-card-eyebrow { margin-bottom: 18px; }
+.about-story-page .about-snapshot-list { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 20px 15px; }
+.about-story-page .about-snapshot-item { min-width: 0; border-top: 1px solid #EAD5DE; padding-top: 12px; }
+.about-story-page .about-snapshot-label { color: #A25B7A; text-transform: uppercase; font-size: .64rem; font-weight: 800; letter-spacing: 1.05px; margin-bottom: 7px; }
+.about-story-page .about-snapshot-value { color: #453640; font-size: .85rem; line-height: 1.55; font-weight: 600; overflow-wrap: anywhere; }
+.about-story-page .about-story-details { padding: clamp(24px,3vw,38px); background: #F8F0F3; border-color: #E8C7D5; border-radius: 28px; }
+.about-story-page .about-story-chapter .about-card-eyebrow, .about-story-page .about-story-feature .about-card-eyebrow, .about-story-page .about-purpose .about-card-eyebrow { margin-bottom: 12px; }
+.about-story-page .about-story-chapter-title { margin: 0 0 12px; font-size: clamp(1.35rem,2.2vw,1.85rem); line-height: 1.25; letter-spacing: -.6px; font-weight: 850; color: #352B33; }
+.about-story-page .about-story-copy { margin: 0; font-size: .9rem; line-height: 1.94; color: #6C5965; }
+.about-story-page .about-divider { margin: 27px 0; }
+.about-story-page .about-story-lower { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 23px; margin-top: 34px; }
+.about-story-page .about-story-feature { min-width: 0; position: relative; overflow: hidden; border: 1px solid #E8C7D5; border-radius: 25px; padding: 32px; background: #F8F0F3; box-shadow: 0 12px 30px rgba(108,70,88,.07); transition: transform .35s ease, box-shadow .35s ease; }
+.about-story-page .about-story-feature:nth-child(2) { background: #F3ECF5; border-color: #DED2E6; }
+.about-story-page .about-story-feature:hover { transform: translateY(-4px); box-shadow: 0 17px 35px rgba(108,70,88,.11); }
+.about-story-page .about-story-decoration { position: absolute; top: 18px; right: 25px; color: #C889A6; font-size: 1.7rem; opacity: .75; }
+.about-story-page .about-story-feature-title { margin: 0 0 12px; max-width: 92%; font-size: clamp(1.3rem,2vw,1.65rem); line-height: 1.28; letter-spacing: -.5px; font-weight: 850; color: #352B33; }
+.about-story-page .about-purpose { position: relative; overflow: hidden; margin-top: 25px; border: 1px solid #E3B8CC; border-radius: 26px; padding: clamp(29px,4.2vw,50px); background: linear-gradient(116deg,#EFDAE4,#E8D9EB 72%,#F0E6EA); box-shadow: 0 15px 35px rgba(108,70,88,.09); }
+.about-story-page .about-purpose-copy { position: relative; z-index: 1; max-width: 760px; }
+.about-story-page .about-purpose-title { margin: 0 0 14px; font-size: clamp(1.65rem,3.1vw,2.45rem); letter-spacing: -1px; line-height: 1.2; color: #352B33; font-weight: 900; }
+.about-story-page .about-purpose-body { font-size: .94rem; line-height: 1.95; color: #594754; }
+.about-story-page .about-purpose-mark { position: absolute; right: 32px; bottom: 0; font-size: 11rem; line-height: 1; color: #CE9FB7; opacity: .24; pointer-events: none; }
+@media (max-width: 1000px) { .about-story-page .about-story-main-grid { grid-template-columns: .86fr 1.14fr; gap: 22px; } .about-story-page .about-story-details { padding: 25px; } .about-story-page .about-snapshot-list { grid-template-columns: 1fr; gap: 12px; } }
+@media (max-width: 760px) { .about-story-page .about-story-main-grid { grid-template-columns: 1fr; } .about-story-page .about-story-visual { max-width: 520px; } .about-story-page .about-snapshot-list { grid-template-columns: 1fr 1fr; } .about-story-page .about-story-lower { grid-template-columns: 1fr; gap: 18px; margin-top: 24px; } .about-story-page .about-story-heading { margin-bottom: 30px; } .about-story-page .about-story-feature { padding: 26px; } .about-story-page .about-purpose { margin-top: 18px; } .about-story-page .about-purpose-mark { font-size: 7rem; } }
+@media (max-width: 480px) { .about-story-page .about-snapshot-card { padding: 22px; } .about-story-page .about-snapshot-list { grid-template-columns: 1fr; } .about-story-page .about-story-copy { font-size: .87rem; line-height: 1.88; } .about-story-page .about-story-heading .about-title { letter-spacing: -1.6px; font-size: clamp(2.05rem, 8vw, 2.55rem); } .about-story-page .about-purpose-body { font-size: .87rem; } .about-story-page .about-story-feature { padding: 23px; } }
+@media (prefers-reduced-motion: reduce) { .about-story-page .about-story-feature { transition: none; } .about-story-page .about-story-feature:hover { transform: none; } }
+
+/* Professional About Me content adjustments, scoped to this page only. */
+.about-story-page .about-intro-followup { margin-top: 12px; }
+.about-story-page .about-story-lower { grid-template-columns: minmax(0, 1fr); }
+.about-story-page .about-story-feature .about-story-copy { max-width: 880px; }
+.about-story-page .about-snapshot-list { align-items: start; }
+.about-story-page .about-snapshot-item { min-width: 0; }
+
+/* Gentle portrait-frame float inspired by the site's existing motion language.
+   Wrapper animation avoids overriding the original photo's entrance animation. */
+.about-story-page .about-photo-frame-float {
+    width: 100%;
+    animation: aboutFrameFloat 7.5s ease-in-out 1.1s infinite;
+}
+.about-story-page .about-photo-frame-float .about-photo-card {
+    box-shadow: 0 20px 46px rgba(108, 70, 88, .17), 0 5px 15px rgba(108, 70, 88, .06);
+}
+@keyframes aboutFrameFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+}
+@media (prefers-reduced-motion: reduce) {
+    .about-story-page .about-photo-frame-float { animation: none; transform: none; }
+}

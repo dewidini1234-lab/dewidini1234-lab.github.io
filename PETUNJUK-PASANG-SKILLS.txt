@@ -1,0 +1,41 @@
+DEWI PORTFOLIO | UPDATE SKILLS & TOOLS (22 November 2026)
+============================================================
+
+UPDATE INI HANYA MENAMBAH 1 HALAMAN DAN MEMBUKA MENU SKILLS.
+Semua halaman lain, termasuk Projects, Experience, Education, dan
+perubahan warna foto About Me tetap dipertahankan.
+
+ISI ZIP:
+- skills.html               (BARU)
+- css/skills.css            (BARU)
+- js/skills.js              (BARU)
+- components/navbar.html    (UPDATE: menu Skills menjadi aktif)
+- PETUNJUK-PASANG-SKILLS.txt
+
+CARA PASANG DI WINDOWS:
+1. Pastikan folder: C:\xampp\htdocs\dewi-portfolio-multipage
+2. Backup file components\navbar.html yang sekarang.
+3. Ekstrak ZIP ini. COPY ISI ZIP, BUKAN folder ZIP-nya, ke
+   C:\xampp\htdocs\dewi-portfolio-multipage\
+4. MERGE folder components/css/js; REPLACE hanya components\navbar.html.
+5. Jangan hapus file lama atau folder assets. Jangan replace index/about/
+   education/projects/experience.html.
+6. Pastikan server lokal tetap hidup (python -m http.server 8001).
+7. Buka http://127.0.0.1:8001/skills.html lalu Ctrl+Shift+R.
+8. Tes menu Keahlian & Tools, tombol ID/EN, dan tampilan HP.
+
+KONTEN:
+16 Skills, 10 Tools (kartu dengan ikon merek), 12 Technologies.
+Tidak menambahkan kemampuan yang sebelumnya ditolak.
+
+CATATAN LOGO:
+Ikon/Logo Tools dimuat dari Iconify, situs Google, dan jsDelivr menggunakan
+koneksi internet. Nama tool tetap muncul bila ikonnya gagal dimuat.
+Untuk website yang sepenuhnya offline, nanti logo dapat diganti aset SVG/PNG
+lokal yang diperoleh dari penyedia resmi dengan izin penggunaan yang sesuai.
+Penggunaan ikon merek untuk identifikasi tidak menyiratkan afiliasi.
+
+CATATAN:
+Halaman Certifications dan Contact masih mengikuti status proyek sebelumnya.
+Jika menu baru tidak aktif, pastikan navbar baru menimpa navbar lama dan
+lakukan hard refresh (Ctrl+Shift+R) pada browser.

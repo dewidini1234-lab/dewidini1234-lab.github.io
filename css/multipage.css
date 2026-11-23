@@ -1,0 +1,46 @@
+
+
+/* Multi-page links retain the original button-based navigation layout. */
+.nav-link[href] { display: inline-block; }
+@media (max-width: 1100px) {
+    .primary-navigation .nav-link[href] { display: block; }
+}
+
+/* Unified page-label capsules: About 01, Education 02, Projects 03. */
+#about .about-eyebrow,
+#education .edu-eyebrow,
+#projects .exp-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 16px;
+    border: 1px solid rgba(179, 94, 131, .19);
+    border-radius: 999px;
+    background: rgba(248, 240, 243, .82);
+    color: #944467;
+    font-size: .69rem;
+    line-height: 1.45;
+    font-weight: 800;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    box-shadow: 0 4px 14px rgba(102, 57, 82, .045);
+}
+#about .about-eyebrow::before,
+#projects .exp-eyebrow::before {
+    content: "";
+    display: inline-block;
+    flex: 0 0 7px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #b35e83;
+    box-shadow: 0 0 0 4px rgba(179, 94, 131, .12);
+}
+#education .edu-eyebrow-dot {
+    flex: 0 0 7px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #b35e83;
+    box-shadow: 0 0 0 4px rgba(179, 94, 131, .12);
+}

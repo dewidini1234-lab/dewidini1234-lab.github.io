@@ -1,0 +1,109 @@
+    <header class="site-header">
+
+        <div class="nav-container">
+
+            <a
+                href="index.html"
+                class="brand-logo"
+                aria-label="Kembali ke Beranda"
+                data-i18n-aria="brandHomeAria"
+            >
+                DEWI<span>.</span>
+            </a>
+
+
+            <!-- Mobile Menu -->
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Buka menu navigasi"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+                data-i18n-aria="menuOpen"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <!-- Main Navigation -->
+
+            <nav
+                class="primary-navigation"
+                id="primary-navigation"
+                aria-label="Navigasi utama"
+                data-i18n-aria="mainNavigationLabel"
+            >
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="index.html" data-section="home" data-i18n="navHome">Beranda</a></li>
+                    <li><a class="nav-link" href="about.html" data-section="about" data-i18n="navAbout">Tentang Saya</a></li>
+                    <li><a class="nav-link" href="education.html" data-section="education" data-i18n="navEducation">Pendidikan</a></li>
+                    <li><a class="nav-link" href="projects.html" data-section="projects" data-i18n="navProjects">Proyek</a></li>
+                    <!-- Experience is a dedicated internship page; other links remain disabled until built. -->
+                    <li><a class="nav-link" href="experience.html" data-section="experience" data-i18n="navExperience">Pengalaman</a></li>
+                    <li><a class="nav-link" href="skills.html" data-section="skills" data-i18n="navSkills">Keahlian &amp; Tools</a></li>
+                    <li><a class="nav-link" href="contact.html" data-section="contact" data-i18n="navContact">Kontak</a></li>
+                </ul>
+
+            </nav>
+
+
+            <!-- Language Switcher -->
+
+            <div
+                class="language-switcher"
+                id="language-switcher"
+                role="group"
+                aria-label="Pilihan bahasa"
+                data-i18n-aria="languageSwitcherLabel"
+            >
+
+                <span
+                    class="language-caption"
+                    data-i18n="languageLabel"
+                >
+                    BAHASA
+                </span>
+
+                <button
+                    type="button"
+                    class="language-option active"
+                    data-language="id"
+                    aria-label="Pilih Bahasa Indonesia"
+                    aria-pressed="true"
+                    data-i18n-aria="selectIndonesian"
+                >
+                    ID
+                </button>
+
+                <button
+                    type="button"
+                    class="language-option"
+                    data-language="en"
+                    aria-label="Switch to English"
+                    aria-pressed="false"
+                    data-i18n-aria="selectEnglish"
+                >
+                    EN
+                </button>
+
+            </div>
+
+
+            <!-- Download CV -->
+
+            <a
+                href="assets/documents/cv-dewi.pdf"
+                class="nav-cv-button"
+                download
+            >
+                <span data-i18n="downloadCV">Unduh CV</span>
+                <span aria-hidden="true">↗</span>
+            </a>
+
+        </div>
+
+    </header>

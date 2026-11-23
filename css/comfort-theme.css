@@ -1,0 +1,447 @@
+
+/* =====================================================
+   DEWI PORTFOLIO
+   GLOBAL COMFORT THEME
+
+   Applies to:
+   - Home
+   - About Me
+   - Projects
+   - Navigation
+   - Footer
+
+   Warm Rosy Pastel | Comfortable Contrast
+===================================================== */
+
+
+/* =====================================================
+   01. GLOBAL COLOR PALETTE
+===================================================== */
+
+:root {
+    --comfort-bg: #f0e6ea;
+    --comfort-surface: #f8f0f3;
+    --comfort-surface-soft: #f2dfe7;
+
+    --comfort-pink: #e9c3d2;
+    --comfort-lavender: #dccfe6;
+
+    --comfort-rose: #b35e83;
+    --comfort-rose-dark: #944467;
+
+    --comfort-text: #352b33;
+    --comfort-muted: #65545e;
+
+    --comfort-border: #dbb8c8;
+}
+
+
+/* =====================================================
+   02. GLOBAL BACKGROUND
+===================================================== */
+
+html {
+    background: var(--comfort-bg);
+    color-scheme: light;
+}
+
+body {
+    background: var(--comfort-bg) !important;
+    color: var(--comfort-text);
+}
+
+#main-content {
+    background: var(--comfort-bg);
+}
+
+
+/* =====================================================
+   03. NAVIGATION BAR
+===================================================== */
+
+.site-header {
+    background: rgba(
+        248, 240, 243, 0.97
+    ) !important;
+
+    border-bottom: 1px solid
+        var(--comfort-border);
+
+    box-shadow:
+        0 3px 15px rgba(
+            83, 49, 66, 0.05
+        );
+}
+
+.site-header .nav-link {
+    color: var(--comfort-muted);
+}
+
+.site-header .nav-link.active,
+.site-header .nav-link[aria-current="page"] {
+    color: var(--comfort-rose-dark);
+}
+
+
+/* =====================================================
+   04. HOME PAGE
+===================================================== */
+
+#home,
+#home .home-section,
+#home .hero-section,
+#home .focus-section {
+    background:
+        radial-gradient(
+            circle at 90% 9%,
+            rgba(220, 207, 230, 0.40),
+            transparent 36%
+        ),
+        linear-gradient(
+            155deg,
+            #f2e8ec 0%,
+            #efe2e8 56%,
+            #f1e6eb 100%
+        ) !important;
+}
+
+/* Home cards, where present */
+
+#home .focus-card,
+#home .focus-item,
+#home .hero-info-card {
+    background: var(
+        --comfort-surface
+    ) !important;
+
+    border-color: var(
+        --comfort-border
+    ) !important;
+}
+
+/* Text readability */
+
+#home .hero-description,
+#home .focus-description,
+#home .focus-card p {
+    color: var(
+        --comfort-muted
+    ) !important;
+
+    line-height: 1.85;
+}
+
+
+/* =====================================================
+   05. ABOUT ME PAGE
+===================================================== */
+
+#about .about-section {
+    background:
+        radial-gradient(
+            circle at 92% 8%,
+            rgba(220, 207, 230, 0.38),
+            transparent 36%
+        ),
+        linear-gradient(
+            160deg,
+            #f2e7ec 0%,
+            #efe2e8 55%,
+            #f1e6eb 100%
+        ) !important;
+}
+
+/* Main information card */
+
+#about .about-details {
+    background: var(
+        --comfort-surface
+    ) !important;
+
+    border-color: var(
+        --comfort-border
+    ) !important;
+}
+
+/* Education card */
+
+#about .about-education-card {
+    background:
+        linear-gradient(
+            135deg,
+            #f0d9e3,
+            #f5e7ed
+        ) !important;
+
+    border-color: var(
+        --comfort-border
+    ) !important;
+}
+
+/* Thesis showcase */
+
+#about .about-system-card {
+    background: var(
+        --comfort-surface
+    ) !important;
+
+    border-color: var(
+        --comfort-border
+    ) !important;
+}
+
+/* About paragraphs */
+
+#about .about-intro,
+#about .about-body-text,
+#about .about-system-heading p {
+    color: var(
+        --comfort-muted
+    ) !important;
+
+    line-height: 1.85;
+}
+
+/* Section dividers */
+
+#about .about-divider {
+    background: var(
+        --comfort-border
+    ) !important;
+}
+
+
+/* =====================================================
+   06. PROJECTS PAGE
+===================================================== */
+
+#projects .exp-page {
+    background:
+        radial-gradient(
+            circle at 88% 8%,
+            rgba(220, 207, 230, 0.35),
+            transparent 36%
+        ),
+        linear-gradient(
+            150deg,
+            #f2e7ec 0%,
+            #eee1e8 55%,
+            #f1e6eb 100%
+        ) !important;
+
+    color: var(--comfort-text);
+}
+
+/* Main experience card */
+
+#projects .exp-project-card {
+    background: var(
+        --comfort-surface
+    ) !important;
+
+    border-color: var(
+        --comfort-border
+    ) !important;
+
+    box-shadow:
+        0 16px 42px rgba(
+            102, 57, 82, 0.07
+        );
+}
+
+/* Project index cards */
+
+#projects .exp-project-item {
+    background: #f4e8ed !important;
+    border-color: var(
+        --comfort-border
+    ) !important;
+}
+
+#projects .exp-project-item--active {
+    background: #edccda !important;
+    border-color: #c683a2 !important;
+}
+
+/* Highlight cards */
+
+#projects .exp-highlight {
+    background: #f0dce5 !important;
+    border-color: #dbb1c3 !important;
+}
+
+#projects .exp-highlight:nth-child(even) {
+    background: #e9e0ef !important;
+    border-color: #d5c0df !important;
+}
+
+/* Multi-user information */
+
+#projects .exp-multiuser {
+    background: #f1dfe7 !important;
+    border-color: var(
+        --comfort-border
+    ) !important;
+}
+
+/* Three-way matching */
+
+#projects .exp-document {
+    background: #f0dce5 !important;
+    border-color: var(
+        --comfort-border
+    ) !important;
+}
+
+#projects .exp-document:nth-of-type(3) {
+    background: #e9e0ef !important;
+}
+
+/* Contributions */
+
+#projects .exp-contribution {
+    background: #f6eaf0 !important;
+    border-color: var(
+        --comfort-border
+    ) !important;
+}
+
+#projects .exp-contribution:nth-child(even) {
+    background: #ece5f0 !important;
+}
+
+/* Timeline */
+
+#projects .exp-timeline-item {
+    background: #f0dce5 !important;
+    border-color: var(
+        --comfort-border
+    ) !important;
+}
+
+#projects .exp-timeline-item:nth-child(2) {
+    background: #e9e0ef !important;
+}
+
+/* Text readability */
+
+#projects .exp-prose p,
+#projects .exp-multiuser p,
+#projects .exp-contribution p,
+#projects .exp-gallery-description,
+#projects .exp-project-period {
+    color: var(
+        --comfort-muted
+    ) !important;
+
+    line-height: 1.85;
+}
+
+/* Role buttons */
+
+#projects .exp-role-button {
+    background: #f5e9ee !important;
+    color: #59424f !important;
+
+    border-color: var(
+        --comfort-border
+    ) !important;
+}
+
+#projects .exp-role-button.is-selected {
+    background: var(
+        --comfort-rose-dark
+    ) !important;
+
+    border-color: #81385a !important;
+    color: #ffffff !important;
+
+    box-shadow:
+        0 4px 0 #76314f,
+        0 8px 18px rgba(
+            112, 51, 80, 0.15
+        ) !important;
+}
+
+/* Image frame */
+
+#projects .exp-monitor {
+    background: #ead4e0 !important;
+    border-color: #d5aac0 !important;
+}
+
+/* Keep screenshots unchanged */
+
+#projects .exp-image-button img,
+#about .about-system-image img,
+#about .about-profile-image {
+    filter: none !important;
+}
+
+
+/* =====================================================
+   07. SOFTEN DECORATIVE GLOWS
+===================================================== */
+
+#projects .exp-glow {
+    opacity: 0.18 !important;
+    filter: blur(28px);
+}
+
+
+/* =====================================================
+   08. FOOTER
+===================================================== */
+
+.site-footer {
+    background: #f3e9ee !important;
+
+    border-top: 1px solid
+        var(--comfort-border) !important;
+}
+
+.site-footer p {
+    color: var(
+        --comfort-muted
+    ) !important;
+}
+
+
+/* =====================================================
+   09. GENERAL TYPOGRAPHY
+===================================================== */
+
+#home h1,
+#home h2,
+#about h1,
+#about h2,
+#about h3,
+#projects h1,
+#projects h2,
+#projects h3,
+#projects h4 {
+    color: var(
+        --comfort-text
+    );
+}
+
+/* Comfortable paragraph contrast */
+
+#about .about-body-text,
+#projects .exp-prose p,
+#projects .exp-multiuser p {
+    font-size: 15px;
+}
+
+
+/* =====================================================
+   10. ACCESSIBILITY
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    #projects .exp-glow {
+        animation: none !important;
+    }
+
+}
