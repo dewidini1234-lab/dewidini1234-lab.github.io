@@ -15,8 +15,8 @@
 // Masukkan alamat website asli ketika sudah tersedia.
 
 const WEBSITE_URLS = {
-    website01: "",
-    website02: ""
+    website01: "https://dewidini1234-lab.github.io/procuresync-demo/",
+    website02: "https://dewidini1234-lab.github.io/social-media-monitoring-portfolio/"
 };
 
 // Judul resmi skripsi
@@ -78,11 +78,11 @@ const TRANSLATIONS = {
         heroDescription:
             "Lulusan Sistem Informasi dari Universitas Mandiri yang tertarik pada IT Project Development, System Analysis, dan System Design untuk mengembangkan solusi digital sesuai kebutuhan nyata.",
 
-        buttonWebsite01: "Jelajahi Website 01",
-        buttonWebsite02: "Jelajahi Website 02",
+        buttonWebsite01: "Jelajahi ProcureSync",
+        buttonWebsite02: "Jelajahi Social Media Monitoring",
 
         websiteLinkNote:
-            "Tautan website proyek akan dihubungkan di sini.",
+            "Kedua proyek dibuka di tab baru.",
 
         basedIn: "Berbasis di Indonesia",
         degreeField: "Sistem Informasi",
@@ -296,11 +296,11 @@ const TRANSLATIONS = {
         heroDescription:
             "An Information Systems graduate from Universitas Mandiri interested in IT Project Development, System Analysis, and System Design, with a focus on developing digital solutions that address real-world needs.",
 
-        buttonWebsite01: "Explore Website 01",
-        buttonWebsite02: "Explore Website 02",
+        buttonWebsite01: "Explore ProcureSync",
+        buttonWebsite02: "Explore Social Media Monitoring",
 
         websiteLinkNote:
-            "Project website links will be connected here.",
+            "Both projects open in a new tab.",
 
         basedIn: "Based in Indonesia",
         degreeField: "Information Systems",
